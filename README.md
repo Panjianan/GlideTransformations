@@ -16,6 +16,8 @@ An Android transformation library providing a variety of image transformations f
 ```groovy
 repositories {
     jcenter()
+    // 如果没通过审核就要下面这个
+    maven { url 'https://dl.bintray.com/tsubasap91/maven' }
 }
 
 dependencies {
